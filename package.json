@@ -1,0 +1,27 @@
+{
+  "name": "@njam-data/slack-data-pipeline-monitor",
+  "version": "0.0.0",
+  "description": "api client for sending incoming webhooks to the njam #monitoring slack channel",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "uvu tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njam-data/slack-data-pipeline-monitor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/njam-data/slack-data-pipeline-monitor/issues"
+  },
+  "homepage": "https://github.com/njam-data/slack-data-pipeline-monitor#readme",
+  "dependencies": {
+    "isomorphic-unfetch": "^3.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "standard": "^16.0.3"
+  }
+}
