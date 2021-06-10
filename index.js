@@ -41,8 +41,11 @@ export class DataPipelineMonitor {
             text: `*URL:*\n${dataUrl}`
           }
         ]
-      },
-      {
+      }
+    ]
+
+    if (sourceUrl) {
+      blocks.push({
         type: 'section',
         fields: [
           {
@@ -50,8 +53,8 @@ export class DataPipelineMonitor {
             text: `*Source:*\n${sourceUrl}`
           }
         ]
-      }
-    ]
+      })
+    }
 
     return this.request({ blocks })
   }
