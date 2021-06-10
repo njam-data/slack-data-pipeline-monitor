@@ -1,6 +1,6 @@
 {
   "name": "@njam-data/slack-data-pipeline-monitor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "api client for sending incoming webhooks to the njam #monitoring slack channel",
   "main": "index.js",
   "type": "module",
